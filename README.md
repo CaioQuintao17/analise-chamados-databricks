@@ -89,6 +89,26 @@ O notebook pressupõe que a tabela Bronze já foi importada. As tabelas Silver e
 
 As imagens documentam o dashboard; sua configuração precisa ser recriada no Databricks.
 
+## Conclusões da análise
+
+### 1. Rede concentra o maior volume de chamados
+
+A categoria REDE apresenta 47 dos 200 chamados, representando 23,5% do total. É a categoria com maior demanda nesta base, o que sugere investigar problemas recorrentes e oportunidades de prevenção.
+
+### 2. Acessos concentra as pendências
+
+A categoria ACESSOS reúne 16 dos 46 chamados pendentes, aproximadamente 34,8% das pendências. Dentro da própria categoria, 16 dos 44 chamados estão pendentes, cerca de 36,4%.
+
+Esse resultado sugere investigar possíveis dificuldades no fluxo de atendimento. Os dados disponíveis não permitem identificar a causa.
+
+### 3. A maioria dos chamados está resolvida
+
+Dos 200 chamados, 154 estão resolvidos (77%) e 46 permanecem pendentes (23%).
+
+Essa proporção descreve a situação da base analisada. Para avaliar se o desempenho é satisfatório, seria necessário comparar com metas, períodos anteriores e a idade das pendências.
+
+> As conclusões se referem a dados fictícios utilizados para estudo. Não representam resultados de uma operação real.
+> 
 ## Aprendizados
 
 - Transformação de dados com PySpark.
